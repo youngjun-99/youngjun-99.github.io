@@ -1,33 +1,22 @@
 # Site
-repository: sproogen/resume-theme
+repository: youngjun-99/youngjun-99.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 노영준
+title: NLP Researcher
+email: nyj5979@naver.com
+website: https://youngjun-99.tistory.com/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username:  youngjun-99
+linkedin_username: 노영준
 
 # Additional icon links
 additional_links:
@@ -47,70 +36,66 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+about_content: | 
+  2년 차 개발자로 스타트업에서 메일링 서비스를 개발/운영한 경험이 있습니다. 자동 메일링 서비스를 담당했으며, 필요에 따라 크롤러, 웹 개발 역할을 겸하였습니다. 더나눔협동조합의 첫 번째
+              개발자로 입사하여 입주 광고 업체 입점을 20건 유치하면서 회사에 필요한 모든 기술 역량을 책임졌던 경험이 있습니다.
+            
+            가치 창출에 기여하는 것을 좋아합니다. 이를 위해 빠르게 개발하고 배포하는 것은 물론, 개발 후에 지속적으로 리팩토링하며 코드 확장성을 높이는 작업을 하고자 노력해왔습니다. 특히, 재사용
+              가능성이 높은 코드는 모듈화하여 사내 라이브러리로 만들며 다른 개발자와 커뮤니케이션하며 협업해왔습니다.
+            
+            새로운 경험에 뛰어드는 것을 좋아합니다. 기존에 자동화, 프론트앤드, 백엔드 업무를 담당했었다면, TmaxAI에서 자연어 처리와 머신러닝을 공부하며 업무에 기여하고자 노력하였습니다. 입사
+              3개월 수습 기간동안, 외부 과제 3년 치를 3개월 만에 완벽히 수행하여 TTA 인증을 받은 경험이 있습니다.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: TmaxAI
+        link: www.tmax.co.kr/tmaxai
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: 연구원
+        caption: 2022.06 ~ 현재
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          초개인화 지식 케어 서비스 개발 및 정부 과제
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+              -KEIT 과제 3년치 과제 3개월동안 해결
+              -회사 서비스 백엔드 서버 개발
+              -사내 머신러닝 스터디 진행
+              -코드리뷰 & 코드 리팩터링
+              -재사용 가능 코드 모듈화
 
-  - title: Education # Title for the section
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: KLUE_RoBERTaGCN
+        link: github.com/payitfoward/klue_robertagcn
+        # link_text: Project Website
+        additional_links:
+          - title:  payitfoward/klue_robertagcn
+            icon: fab fa-github
+            url: github.com/payitfoward/klue_robertagcn
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          KLUE 데이터셋 SOTA 달성
+        description: | # this will include new lines to allow paragraphs
+          언어 임베딩 모델 <mark>RoBERTa와 Graph Convolution Network를 활용해 KLUE-ynat(Topic Classification)에서 SOTA달성
+
+  - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Front-end
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Front-end
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+              -Java
+              -HTML/CSS
+              -Bootstrap
 
 # Footer
 footer_show_references: true
