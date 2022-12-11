@@ -60,11 +60,11 @@ content:
         quote: >
           초개인화 지식 케어 서비스 개발 및 정부 과제
         description: | # this will include new lines to allow paragraphs
-              -KEIT 과제 3년치 과제 3개월동안 해결
-              -회사 서비스 백엔드 서버 개발
-              -사내 머신러닝 스터디 진행
-              -코드리뷰 & 코드 리팩터링
-              -재사용 가능 코드 모듈화
+              <li>KEIT 과제 3년치 과제 3개월동안 해결</li>
+              <li>회사 서비스 백엔드 서버 개발</li>
+              <li>사내 머신러닝 스터디 진행</li>
+              <li>코드리뷰 & 코드 리팩터링</li>
+              <li>재사용 가능 코드 모듈화</li>
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
