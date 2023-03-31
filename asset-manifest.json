@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/static/js/main.c32babca.js",
+    "static/js/787.10ee5d8d.chunk.js": "/static/js/787.10ee5d8d.chunk.js",
+    "static/media/2022_ai_for_future_society.png": "/static/media/2022_ai_for_future_society.1b7d73e6d4459a4877f1.png",
+    "static/media/plub.png": "/static/media/plub.51d76ed4d2bd7029ee5e.png",
+    "static/media/back.png": "/static/media/back.9cc1e1a2a234fc17b73b.png",
+    "static/media/front.png": "/static/media/front.ab49016bd85faa003c16.png",
+    "static/media/2023_idea_competition.jpg": "/static/media/2023_idea_competition.2f51eac4e114d9159d86.jpg",
+    "static/media/dgu.jpg": "/static/media/dgu.7025fca355a2835cd48b.jpg",
+    "static/media/r_drop_dacon.jpg": "/static/media/r_drop_dacon.11f92a9261d7c927b782.jpg",
+    "static/media/o_log.png": "/static/media/o_log.31b504977d5e8599087c.png",
+    "static/media/bg.png": "/static/media/bg.318de48e0a0e074bfe4e.png",
+    "static/media/2021_ict.jpg": "/static/media/2021_ict.d58a56e17110a9f3a265.jpg",
+    "static/media/asd_dacon.jpg": "/static/media/asd_dacon.bf303f4b60b3302370e1.jpg",
+    "static/media/klue_robertagcn.png": "/static/media/klue_robertagcn.e196cc807591e2de86e4.png",
+    "index.html": "/index.html",
+    "main.c32babca.js.map": "/static/js/main.c32babca.js.map",
+    "787.10ee5d8d.chunk.js.map": "/static/js/787.10ee5d8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c32babca.js"
+  ]
+}
